@@ -8,8 +8,8 @@ import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
 
 import java.util.Date;
-import static org.hamcrest.Matchers.is;
 
+import static org.hamcrest.Matchers.is;
 
 @DisplayName("Тест")
 public class TestRestApiClass {
@@ -69,7 +69,7 @@ public class TestRestApiClass {
         requestBody.put("firstname", name);
         requestBody.put("Last name", name);
         requestBody.put("UserName", name);
-        requestBody.put("Password", name);
+        requestBody.put("Passworld", name);
         requestBody.put("Email", name + "@gmail.com");
 
         RequestSpecification request = RestAssured.
